@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'faraday'
 gem 'rspec'
-
+gem 'faraday'
+gem 'mongo'
+gem 'bson_ext'
 

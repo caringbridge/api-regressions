@@ -1,5 +1,5 @@
 require_relative './api_client'
-
+require_relative './mongo_factory'
 module CaringBridge
   module Helpers
     def client
@@ -17,6 +17,14 @@ module CaringBridge
       end
       expect(response).to be_success
       return response.body["result"]["profile"]
+    end
+
+    def mongo
+      @mongo ||= CaringBridge::MongoFactory.new
+    end
+
+    def collections
+      mongo.db
     end
   end
 end

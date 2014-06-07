@@ -1,4 +1,4 @@
-require_relative "../lib/api_client"
+#require_relative "../lib/api_client"
 require_relative "../lib/rspec_helpers"
 
 # Require everything in spec/support
