@@ -20,6 +20,6 @@ It's an automated testing tool to support Behavior-Driven Development. Take a lo
 at [the project's website](http://rspec.info/) if you want to know more.
 
 ## Why are you using Ruby? ##
-Aaron knows Ruby and uses to write our other regression tests. Besides, anything
+Aaron knows Ruby and uses it to write our other regression tests. Besides, anything
 is better than PHPUnit.
 
