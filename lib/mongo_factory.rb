@@ -6,6 +6,7 @@ module CaringBridge
     class << self
       attr_accessor :config
     end
+    
     @config = OpenStruct.new({
         :hostname => "test.caringbridge.org",
         :port => 27017,

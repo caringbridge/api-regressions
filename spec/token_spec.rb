@@ -18,4 +18,32 @@ describe "Token Service" do
     expect(response).to include("result")
     expect(response["result"]).to include("token")
   end
+
+  it "tests the :read method" do
+    pending("Not yet implemented")
+    expect(true).to eq(false) # Deliberate failure
+    #response = client.post do |req|
+    #  req.service = :token
+    #  req.method  = :read
+    #  req.params  = {}
+    #end
+  end
+  it "tests the :write method" do
+    pending("Not yet implemented")
+    expect(true).to eq(false) # Deliberate failure
+    #response = client.post do |req|
+    #  req.service = :token
+    #  req.method  = :write
+    #  req.params  = {}
+    #end
+  end
+  it "tests the :destroy method" do
+    pending("Not yet implemented")
+    expect(true).to eq(false) # Deliberate failure
+    #response = client.post do |req|
+    #  req.service = :token
+    #  req.method  = :destroy
+    #  req.params  = {}
+    #end
+  end
 end
